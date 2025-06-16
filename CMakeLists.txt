@@ -13,4 +13,5 @@ target_copy_webgpu_binaries(webgpu_example)
 
 if (EMSCRIPTEN)
     set_target_properties(webgpu_example PROPERTIES SUFFIX ".html")
+    target_link_options(webgpu_example PRIVATE -sASYNCIFY)
 endif()
