@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.31)
 project(webgpu_example)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_COMPILE_WARNING_AS_ERROR ON)
