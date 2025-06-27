@@ -18,6 +18,7 @@
 *.a
 *.mod
 *.smod
+*.vs
 
 .idea/
 .idea/**/workspace.xml
@@ -57,3 +58,4 @@
 /cmake-build-debug
 /webgpu
 cmake-build-*/
+/out/build/x64-Debug
